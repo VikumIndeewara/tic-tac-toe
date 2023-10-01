@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="firstPage">
+    <div id="firstScreen">
+        <h1>Tic-Tac-Toe</h1>
+        <h2>Select game mode</h2>
+        <button id="pvp">player vs player</button>
+    </div>
+    </div>
+    <div class="hide" id="ingameScreen">
+        <h1>Tic-Tac-Toe</h1>
+        <p id="playerTurn"></p>
+        <div id="gameBoardDiv">
+            <div id="gameBoard">
+                <div class="gameBox" data-x="0" data-y="0" data-value="0"></div>
+                <div class="gameBox" data-x="0" data-y="1" data-value="0"></div>
+                <div class="gameBox" data-x="0" data-y="2" data-value="0"></div>
+                <div class="gameBox" data-x="1" data-y="0" data-value="0"></div>
+                <div class="gameBox" data-x="1" data-y="1" data-value="0"></div>
+                <div class="gameBox" data-x="1" data-y="2" data-value="0"></div>
+                <div class="gameBox" data-x="2" data-y="0" data-value="0"></div>
+                <div class="gameBox" data-x="2" data-y="1" data-value="0"></div>
+                <div class="gameBox" data-x="2" data-y="2" data-value="0"></div>
+            </div>
+
+        </div>
+        <div class="hide" id="winner">
+
+        </div>
+        <button id="restart">Restart</button>
+    </div>
+
+</body>
+</html>
+<script src="script.js"></script>

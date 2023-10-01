@@ -1,0 +1,50 @@
+
+#firstPage{
+    text-align: center;
+    margin-top: 15%;
+
+}
+.hide{
+    display: none;
+}
+#ingameScreen{
+    text-align: center;
+    margin-top: 5%;
+}
+#gameBoardDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+#gameBoard{
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 340px;
+    height: 340px;
+    color: black;
+}
+.gameBox{
+    border: 2px solid black;
+    width: 110px;
+    height: 110px;
+}
+.marker{  
+    line-height: 110px;
+    height: 110px;
+    font-size: 58px;
+
+}
+#playerTurn,#winner{
+    font-size: 22px;
+    margin: 10px;
+}
+button{
+    height: 40px;
+    width: 150px;
+    font-size: 18px;
+    margin: 20px;
+}
