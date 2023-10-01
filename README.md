@@ -10,7 +10,9 @@ This is a simple web-based Tic Tac Toe game implemented using HTML, CSS, and Jav
 
 
 index.html: The HTML file containing the structure of the game interface and including necessary CSS and JavaScript files.
+
 style.css: The CSS file defining the styles and layout for the game interface.
+
 script.js: The JavaScript file containing the game logic and interactivity for the Tic Tac Toe game.
 
 
